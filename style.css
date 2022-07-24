@@ -1,0 +1,44 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    /* box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    border: solid 1px rgb(0, 0, 0);
+    width: 322px;
+    margin: auto;
+    /* padding: 10px; */
+}
+
+.main input {
+    width: 94%;
+    height: 60px;
+    border: none;
+    border-bottom: solid 1px black;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+}
+
+.btn button {
+    font-weight: bold;
+    font-size: large;
+    width: 80px;
+    height: 90px;
+    padding: 21px;
+    color: black;
+    background-color: white;
+    border: none;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
